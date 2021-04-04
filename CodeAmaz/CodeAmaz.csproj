@@ -302,7 +302,6 @@
     <Content Include="Content\js-html-course\bootstrap.min.js" />
     <Content Include="Content\js-html-course\jquery-3.4.1.slim.min.js" />
     <Content Include="Content\js\jquery-3.5.1.min.js" />
-    <Content Include="Content\js\noel.js" />
     <Content Include="Content\LessonContent\HTMLCB\BAI01.html" />
     <Content Include="Content\LessonContent\HTMLCB\BAI02.html" />
     <Content Include="Content\LessonContent\HTMLCB\BAI03.html" />
