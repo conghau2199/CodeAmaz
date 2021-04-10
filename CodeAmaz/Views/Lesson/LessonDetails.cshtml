@@ -18,10 +18,16 @@
             string tenbh = mabh + ".html";
             string downloadbh = mabh + ".doc";
         }
+        @if (url.Contains("YOUTUBE"))
+        {
+            <iframe class="lesson-content1" width="860" height="505" src="https://www.youtube.com/embed/zwsPND378OQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        }
+        else
+        {
+            <iframe class="lesson-content" src="~/Content/LessonContent/HTMLCB/@tenbh" frameborder="0" scrolling="auto"></iframe>
+        }
 
-        <p><a id="download" href="~/Content/LessonContent/JavaCB/@tenbh" download="@downloadbh">Download Bài Học 📌</a></p>
 
-        <iframe class="lesson-content" src="~/Content/LessonContent/HTMLCB/@tenbh" frameborder="0" scrolling="auto"></iframe>
     </div>
 
     <div class="run-code">
