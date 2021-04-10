@@ -57,7 +57,7 @@ namespace CodeAmaz.Models.Function
             var model = (from a in db.KHOAHOCs
                              //join b in db.CHUDEs
                              //on a.MACD equals b.MACD
-                         where a.TENKH.Contains(keyword)
+                         where (a.TENKH.Contains(keyword)) || (a.MOTAFULL.Contains(keyword) || (a.MOTANGAN.Contains(keyword)))
                          select new
                          {
                              MAKH = a.MAKH,
